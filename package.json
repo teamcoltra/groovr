@@ -1,0 +1,33 @@
+{
+   "name":"groovr",
+   "description":"Grooveshark API Client",
+   "version":"0.0.1",
+   "homepage":"http://github.com/wearefractal/groovr",
+   "repository":"git://github.com/wearefractal/groovr.git",
+   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "main":"./index.js",
+
+   "dependencies":{
+      "coffee-script":"*",
+      "request":"*",
+      "cheerio":"*",
+      "node-uuid":"*",
+      "async":"*"
+   },
+   "devDependencies":{
+      "mocha":"*",
+      "should":"*"
+   },
+   "scripts":{
+      "test":"mocha --compilers coffee:coffee-script"
+   },
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/wearefractal/groovr/raw/master/LICENSE"
+      }
+   ]
+}
