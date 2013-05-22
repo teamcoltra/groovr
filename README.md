@@ -1,17 +1,14 @@
 ##Information
 
-Package: groovr
-
-Description: Grooveshark API Client
-
-Node Version:  >= 0.4
-
+Package groovr
+Description Grooveshark API Client
+Node Version    >= 0.4
 
 ##Usage
 
 This should also run in the browser if the dependencies are met.
 
-groovr = require 'groovy'
+```groovr = require 'groovy'
 
 # You can search songs, artists, and albums
 groovr.search {type:"Songs", query:"flying lotus"}, (err, songs) ->
@@ -53,7 +50,7 @@ groovr.search {type:"Songs", query:"flying lotus"}, (err, songs) ->
 groovr.getPopular (err, songs) ->
 
 # You can specify a date range - the default is daily
-groovr.getPopular 'monthly', (err, songs) ->
+groovr.getPopular 'monthly', (err, songs) -> ```
 
 ##LICENSE
 
