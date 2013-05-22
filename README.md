@@ -49,10 +49,10 @@ groovr.search {type:"Songs", query:"flying lotus"}, (err, songs) ->
     the file object also contains some meta info like song length
     ###
 
-# You can also get the latest popular songs
+You can also get the latest popular songs
 groovr.getPopular (err, songs) ->
 
-# You can specify a date range - the default is daily
+You can specify a date range - the default is daily
 groovr.getPopular 'monthly', (err, songs) ->
 
 ##LICENSE
