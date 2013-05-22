@@ -1,6 +1,5 @@
 ## Information
 
-|---+-------+-----------+---------------|
 | Package      | groovr | 0-9g/day      |
 | Description  | Grooveshark API Client |
 | Node Version | >= 0.4                 |
