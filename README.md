@@ -1,7 +1,9 @@
 ## Information
 
 Package:       groovr
+
 Description:   Grooveshark API Client
+
 Node Version:  >= 0.4
 
 ## Usage
