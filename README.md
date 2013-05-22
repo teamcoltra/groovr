@@ -1,3 +1,11 @@
+# Origional:
+
+Repo:
+    https://github.com/wearefractal/groovr
+
+DMCA:
+    https://github.com/github/dmca/commit/9863d528780c193cd2aead22264318aaa73ea418
+
 ## Information
 
 * Package: groovr
